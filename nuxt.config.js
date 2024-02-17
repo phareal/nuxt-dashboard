@@ -17,7 +17,7 @@ export default defineNuxtConfig(
             filenames: {
               chunk: ({ isDev }) => isDev ? '[name].js' : '[id].[contenthash].js'
             },
-            transpile: ['feathers-vuex'],
+            transpile: ['unhead']
           },
           env: {
             disableAuth: process.env.DISABLE_AUTH || false,
