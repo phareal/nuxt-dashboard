@@ -120,7 +120,8 @@ export default defineNuxtConfig(
             "vue-echarts",
             "vue-simple-calendar",
             "vue-kanban"
-          ]
+          ],
+          bridge: false
         }
 
 )
